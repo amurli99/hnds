@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Title!</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #caf0fe; /* Set the background color */
+    }
+
+    #logo {
+      width: 95%; /* Adjusted width for the logo */
+      max-width: 1200px; /* Adjusted max-width for the logo */
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    p1 {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p, input, button, a {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    #content-container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  </style>
+</head>
+
+<body>
+  <div id="content-container">
+    <img src="Screenshot_2024-02-03_at_3.58.23_PM-removebg-preview.png">
+    <h1>HelpingHands</h1>
+    <p1>Connecting Volunteers to Communities</p1>
+    <h2>WELCOME BACK!</h2>
+    <p>Email</p>
+    <input type="text" id="emailInput">
+    <button onclick="validateEmail()">Submit Email</button>
+
+    <p>Password</p>
+    <input type="password" id="passwordInput">
+    <button onclick="validatePassword()">Submit Password</button>
+    <div>
+      <a href="Page 2/page2.html" class="login-button">Login</a>
+    </div>
+  </div>
+</body>
+
+</html>

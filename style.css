@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+
+body {
+  text-align: center;
+  font-family: "Bitter", serif;
+  border: 3x black
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%; 
+  max-width: 300px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#page2title {
+  text-align: center;
+}
+
+#title {
+  font-size: 5rem;
+}
+
+.login-button {
+    display: inline-block; 
+    padding: 40px 40px; 
+    text-decoration: none; 
+    border: 2px solid #004d65; 
+    border-radius: 10px; 
+    color: #00364a; 
+    font-weight: bold; 
+    background-color:#fc8d06;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+
+
+
+  
+
+  
